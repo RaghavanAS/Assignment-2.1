@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Assignment on Description List</title>
+        <!-- HTML5 shim for IE8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+      <script src=“https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js”></script>
+    <![endif]-->
+</head>
+<body>
+<!--header section -->
+<header id="mainHeader" role="banner">
+<h1> An Overview on Error codes, Description in DB2 </h1>
+<hr>
+</header>
+<!-- main section -->
+<main id="mainSection">
+<article>
+	<p> <h2> Overview </h2></p>
+	<p>The SQLCODE field contains the SQL return code. The code can be zero (0), negative or positive:</p>
+	<ul>
+		<li>0 means that the execution was successful.</li>
+		<li>Negative values incidate an unsuccessful execution with an error.</li>
+		<li>Positive value mean a successful execution with a warning.</li>
+	</ul>
+	<p><h2>SQLCODES</h2></p>
+	<dl>
+	<dt>-204</dt>
+	<dd>Object not defeined in DB2</dd>
+	</dl>
+	<dl>
+	<dt>-501</dt>
+	<dd>Cursor not open on FETCH.</dd>
+	</dl>
+	<dl>
+	<dt>-504</dt>
+	<dd>Cursor name not declared.</dd>
+	</dl>
+	<dl>
+	<dt>-551</dt>
+	<dd>Authorization failure.</dd>
+	</dl>
+	<dl>
+	<dt>-803</dt>
+	<dd>Duplicate key on insert or update.</dd>
+	</dl>
+	<dl>
+	<dt>-805</dt>
+	<dd>DBRM or package not found in plan.</dd>
+	</dl>
+	<dl>
+	<dt>-811</dt>
+	<dd>More than one row retrieved in SELECT INTO.</dd>
+	</dl>
+	<dl>
+	<dt>-904</dt>
+	<dd>Unavailable resource. Someone else is locking your data.</dd>
+	</dl>
+</article>
+</main>
+    <!--    Footer -->
+    <footer id="pageFooter">
+        <p>&copy;copyright 2017 | All rights reserved.</p>
+    </footer>
+</body>
+</html>
